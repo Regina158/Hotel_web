@@ -1,0 +1,31 @@
+:root {
+    --teal: #2eclac;
+    --teal_hover: #279ebc;
+}
+
+*{
+    font-family: 'Inter', sans-serif;
+    }
+
+    .h{
+        font-family: 'Lato', sans-serif;
+    }
+        input::-webkit-outer-spin-button,
+        input::-webkit-inner-spin-button {
+        -webkit-appearance: none;
+        margin: 0;
+        }
+
+        input[type=number] {
+        -moz-appearance: textfield;
+        }
+
+        .custom-bg{
+            background-color: var(--teal);
+            border: 1 px solid var(--teal);
+        }
+
+        .custom-bg :hover{
+            background-color: var(--teal_hover);
+            border-color: var(--teal_hover);
+        }
